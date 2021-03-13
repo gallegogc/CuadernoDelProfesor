@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cuadernodelprofesor.ui.fragments.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_alumnos"
+        android:name="com.example.cuadernodelprofesor.ui.fragments.AlumnosFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_alumnos" />
+    <fragment
+        android:id="@+id/nav_faltas"
+        android:name="com.example.cuadernodelprofesor.ui.fragments.PasarListaFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_pasar_lista" />
+    <fragment
+        android:id="@+id/nav_foro"
+        android:name="com.example.cuadernodelprofesor.ui.fragments.ForoPostFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_foro_post" />
+    <activity
+        android:id="@+id/nav_acerca_de"
+        android:name="com.example.cuadernodelprofesor.ui.activities.Activity_Acerca_De"
+        android:label="activity_acerca_de"
+        tools:layout="@layout/activity_acerca_de" />
+    <activity
+        android:id="@+id/nav_ayuda"
+        android:name="com.example.cuadernodelprofesor.ui.activities.Activity_Ayuda"
+        android:label="activity_ayuda"
+        tools:layout="@layout/activity_ayuda" />
+</navigation>

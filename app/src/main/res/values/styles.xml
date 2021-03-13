@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6a6a6a</item>
+        <item name="colorPrimaryDark">#6a6a6a</item>
+        <item name="colorAccent">#6a6a6a</item>
+        <item name="android:navigationBarColor">#6a6a6a</item>
+        <!-- //<item name="android:editTextColor">#ffffffff</item> -->
+    </style>
+
+    <style name="AppFragmentsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6a6a6a</item>
+        <item name="colorPrimaryDark">#6a6a6a</item>
+        <item name="colorAccent">#6a6a6a</item>
+        <item name="android:navigationBarColor">#6a6a6a</item>
+        <!-- //<item name="android:editTextColor">#ffffffff</item> -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#3fc1f2</item>
+        <item name="colorPrimaryDark">#3fc1f2</item>
+        <item name="colorAccent">#3fc1f2</item>
+        <item name="android:navigationBarColor">#3fc1f2</item>
+        <item name="android:windowBackground">@drawable/splash_art</item>
+        <item name="cardViewStyle">@color/cardview_light_background</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/gameplay_font</item>
+        <item name="android:translationZ">0dp</item>
+    </style>
+
+</resources>

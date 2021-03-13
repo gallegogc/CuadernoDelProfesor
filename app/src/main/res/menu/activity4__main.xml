@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItemExportarFichero"
+        android:orderInCategory="100"
+        android:title="Exportar a fichero"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuItemCerrarSesion"
+        android:title="Cerrar sesión" />
+</menu>

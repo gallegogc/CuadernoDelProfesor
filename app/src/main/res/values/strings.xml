@@ -1,0 +1,29 @@
+<!-- XML DE VALORES STRING, DE GRAN IMPORTANCIA EN APLICACIONES REALES. SE UTILIZA PARA EVITAR
+INTRODUCIR LOS TEXTOS EN FORMATO HARDCODING, SIENDO LA APLICACIÓN MÁS FAVORABLE AL MANTENIMIENTO
+Y PERMITIENDO TRADUCIR LA MISMA MÁS FÁCILMENTE -->
+<resources>
+    <string name="app_name">Cuaderno del Profesor</string>
+    <string name="title_activity_activity4__main">Activity4_Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="menu_home">Cuaderno del Profesor</string>
+    <string name="label_faltas">Pasar lista</string>
+    <string name="label_foro">Foro</string>
+    <string name="label_alumnos">Alumnos</string>
+    <string name="label_calendario">Calendario</string>
+    <string name="label_ayuda">Ayuda</string>
+
+    <string name="funcionalidades1">Esta es una aplicación en Android programada en Java para la asignatura de Programación Multimedia y Dispositivos móviles.</string>
+    <string name="funcionalidades2">Forma parte de la plataforma Cuaderno del Profesor, compuesta por dos aplicaciones, actualmente se encuentra en la versión móvil de la misma.</string>
+    <string name="funcionalidades3">Acceda a las funcionalidades de la misma desde el menú desplegable del lateral izquierdo. Puede encontrar más información en los apartados: Ayuda y Acerca de.</string>
+
+    <string name="textoAlumnosClases">En este apartado puede elegir entre las distintas asignaturas en los cursos que imparte, podrá visualizar todos los alumnos matriculados en ella y acceder a sus fichas tocando sobre el respectivo alumno.</string>
+    <string name="foro_dudas">Este es el foro en el que los docentes compañeros de profesión pueden postear dudas y comentarlas. Gracias a los cuadros texto inferiores puedes añadir nuevos post.</string>
+    <string name="acerca_de">Acerca de</string>
+
+</resources>

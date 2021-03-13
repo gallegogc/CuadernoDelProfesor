@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.activities.Activity2_Login">
+
+    <ScrollView
+        android:id="@+id/scrollViewLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewLogin"
+                android:layout_width="0dp"
+                android:layout_height="277dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/walllogin" />
+
+            <TextView
+                android:id="@+id/lblPassLogin"
+                android:layout_width="333dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/gameplay_font"
+                android:text="Contraseña"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUserLogin" />
+
+            <EditText
+                android:id="@+id/txtUserLogin"
+                android:layout_width="333dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/gameplay_font"
+                android:inputType="textPersonName"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lblUserLogin" />
+
+            <EditText
+                android:id="@+id/txtPassLogin"
+                android:layout_width="333dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/gameplay_font"
+                android:inputType="textPassword"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lblPassLogin" />
+
+            <TextView
+                android:id="@+id/lblUserLogin"
+                android:layout_width="333dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/gameplay_font"
+                android:text="Usuario"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/imageViewLogin"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLogin" />
+
+            <TextView
+                android:id="@+id/lblNoCuenta"
+                android:layout_width="244dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="4dp"
+                android:gravity="right|center_vertical"
+                android:text="¿No tienes cuenta? Regístrate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+
+            <TextView
+                android:id="@+id/lblAqui"
+                android:layout_width="39dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="aquí"
+                android:textColor="#7C27DF"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/lblNoCuenta"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/Button"
+                android:layout_width="333dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/gameplay_font"
+                android:text="INICIAR SESIÓN"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtPassLogin" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

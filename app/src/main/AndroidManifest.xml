@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cuadernodelprofesor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconmenu___copia"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconmenu___copia"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.activities.Activity_Ayuda"
+            android:label="Ayuda"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity
+            android:name=".ui.activities.Activity_Acerca_De"
+            android:label="Acerca de"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <!--
+         INFORMACIÓN RELATIVA A LAS ACTIVITIES DEL PROYECTO COMO LA SELECCIÓN DEL ESTILO DE CADA UNA.
+          EN EL ACTIVITY 1 BIENVENIDA SE OPTÓ POR UN TEMA SIN BARRA DE ACCIÓN SUPERIOR PARA UN ESTILO MÁS
+          LIMPIO
+        -->
+        <activity
+            android:name=".ui.activities.Activity1_Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activities.Activity2_Login" />
+        <activity android:name=".ui.activities.Activity3_Registro" />
+        <activity android:name=".ui.activities.Activity_ForoReply" />
+        <activity android:name=".ui.activities.Activity_FichaAlumno" />
+        <activity
+            android:name=".ui.activities.Activity4_Main"
+            android:label="@string/title_activity_activity4__main"
+            android:theme="@style/AppFragmentsTheme" />
+    </application>
+
+</manifest>
